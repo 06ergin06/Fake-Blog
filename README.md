@@ -1,1 +1,2 @@
-# React/Tailwindcss/axios basic fake api blog
+# Basic fake api blog
+React / Tailwind / Axios 

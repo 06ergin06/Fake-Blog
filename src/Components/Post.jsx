@@ -1,9 +1,6 @@
 import axios from "axios";
 import {useEffect, useState} from "react";
 function Post(){
-    const user = {
-
-    }
     const [post,setPost] = useState([]);
     useEffect(() => {
         axios("https://jsonplaceholder.typicode.com/posts")
@@ -24,4 +21,4 @@ function Post(){
         </>
     )
 }
-export default Post;1
+export default Post;
